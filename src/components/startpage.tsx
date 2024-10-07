@@ -16,6 +16,9 @@ import { SectionNewsletter } from "./section-newsletter";
 import { SectionNine } from "./section-nine";
 import YieldGenerator from "./yield-generator";
 import { LanguageSwitcher } from "./language-switcher";
+import SectionThree from "./section-three";
+import FrequentlyAskedQuestions from "./faq";
+import Testimonial from "./testimonial";
 
 
 export function StartPage() {
@@ -30,6 +33,7 @@ export function StartPage() {
       <Partners />
       <SectionOne />
       <SectionTwo />
+      <SectionThree />
       <SectionFour />
       {/* Text fading in  */}
       <SectionSeven />
@@ -39,7 +43,8 @@ export function StartPage() {
 
       <SectionNine />
       <SectionFAQ />
-      <Testimonials />
+      <Testimonial />
+      <FrequentlyAskedQuestions />
       <SectionNewsletter />
     </>
   );
