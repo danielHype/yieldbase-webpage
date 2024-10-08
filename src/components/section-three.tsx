@@ -44,7 +44,7 @@ export default function SectionThree() {
                 <BentoCard
                     dark
                     eyebrow="Engagement"
-                    title="Become a thought leader"
+                    title="Become a thought leader1"
                     description="RadiantAI automatically writes LinkedIn posts that relate current events to B2B sales, helping you build a reputation as a thought leader."
                     graphic={
                         <div className="h-80  bg-[size:851px_344px] bg-no-repeat" />
