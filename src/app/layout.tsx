@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 import { Footer } from "@/components/footer";
 import { FooterCTA } from "@/components/footer-cta";
 import { Header } from "@/components/header";
 import "@/styles/globals.css";
-import { cn } from "@/utils/cn"
+import { cn } from "@/utils/cn";
 import "@/styles/ui.globals.css";
 import { GeistMono } from "geist/font/mono";
 import { GeistSans } from "geist/font/sans";
@@ -11,8 +11,6 @@ import type { Metadata } from "next";
 import type { ReactElement } from "react";
 import { Provider } from "./provider";
 import { baseUrl } from "./sitemap";
-import { LanguageSwitcher } from '@/components/language-switcher';
-
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
@@ -24,7 +22,8 @@ export const metadata: Metadata = {
     "Erleben Sie unübertroffenen Schutz und Präsentation für Ihre Produkte mit unseren umweltfreundlichen, maßgeschneiderten Kartons. Wählen Sie uns für zuverlässige Verpackungslösungen, die Ihre Marke aufwerten und die Umwelt schonen.",
   openGraph: {
     title: "RevBoost | Kartonagen einfach gemacht",
-    description: "Erleben Sie unübertroffenen Schutz und Präsentation für Ihre Produkte mit unseren umweltfreundlichen, maßgeschneiderten Kartons. Wählen Sie uns für zuverlässige Verpackungslösungen, die Ihre Marke aufwerten und die Umwelt schonen.",
+    description:
+      "Erleben Sie unübertroffenen Schutz und Präsentation für Ihre Produkte mit unseren umweltfreundlichen, maßgeschneiderten Kartons. Wählen Sie uns für zuverlässige Verpackungslösungen, die Ihre Marke aufwerten und die Umwelt schonen.",
     url: baseUrl,
     siteName:
       "Erleben Sie unübertroffenen Schutz und Präsentation für Ihre Produkte mit unseren umweltfreundlichen, maßgeschneiderten Kartons. Wählen Sie uns für zuverlässige Verpackungslösungen, die Ihre Marke aufwerten und die Umwelt schonen.",
@@ -73,4 +72,4 @@ function Layout({ children }: { children: ReactElement }) {
     </html>
   );
 }
-export default Layout; 
+export default Layout;

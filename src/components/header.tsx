@@ -1,13 +1,13 @@
 "use client";
 
-import { cn } from "@/utils/cn"
+import { cn } from "@/utils/cn";
 import { NavigationMenu, NavigationMenuLink } from "./ui/navigation-menu";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { LogoIcon } from "./logo-icon";
-import { LanguageSwitcher } from "./language-switcher";
+import LanguagePicker from "./language-picker";
 
 type ListItemProps = {
   title: string;
@@ -16,7 +16,6 @@ type ListItemProps = {
   icon: () => React.JSX.Element;
   className?: string;
 };
-
 
 const ListItem = ({
   className,
@@ -65,7 +64,6 @@ const links = [
     path: "#faq",
     name: "faq",
   },
-
 ];
 
 const listVariant = {
@@ -91,8 +89,6 @@ export function Header() {
 
   const lastPath = `/${pathname.split("/").pop()}`;
 
-
-
   const handleToggleMenu = () => {
     setOpen((prev) => {
       document.body.style.overflow = prev ? "" : "hidden";
@@ -104,10 +100,12 @@ export function Header() {
     <header className="h-12 sticky mt-4 top-4 z-50 px-2 md:px-4 md:flex justify-center">
       <nav className="border border-border p-3 rounded-2xl flex items-center backdrop-filter backdrop-blur-xl bg-[#FDFDFC] dark:bg-[#121212] bg-opacity-70">
         <NavigationMenu>
-          <Link href="/">
+          <Link href="/" className="mr-8">
             <span className="sr-only">RevBoost Logo</span>
             <LogoIcon />
           </Link>
+
+          <LanguagePicker />
 
           <ul className="space-x-2 font-medium text-sm hidden md:flex mx-3">
             {links.map(({ path, name, title }) => {
@@ -154,8 +152,6 @@ export function Header() {
         >
           Karton anfragen
         </a>
-
-
       </nav>
 
       {isOpen && (
@@ -212,15 +208,13 @@ export function Header() {
                   </motion.li>
                 );
               })}
+              <LanguagePicker />
 
               <motion.li
                 className="mt-auto border-t-[1px] pt-8"
                 variants={itemVariant}
               >
-                <Link
-                  className="text-xl text-primary"
-                  href="/anfrage"
-                >
+                <Link className="text-xl text-primary" href="/anfrage">
                   Jetzt Karton anfragen
                 </Link>
               </motion.li>
