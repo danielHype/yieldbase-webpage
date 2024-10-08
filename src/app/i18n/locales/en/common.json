@@ -1,8 +1,15 @@
 {
-  "welcome": "Welcome to our application!",
-  "generateYield": "Generating Yield...",
-  "totalYield": "Total Yield Generated",
-  "language": "Language",
-  "title": "Ihr bester Lieferant für Kartonverpackungen. EN",
-  "to-second-page": "To second page"
+  "heroTitle": "Ihr bester Lieferant für Kartonverpackungen. Bahase",
+  "heroDescription": "Erleben Sie unübertroffenen Schutz und Präsentation für Ihre Produkte mit unseren umweltfreundlichen, maßgeschneiderten Kartons. Wählen Sie uns für zuverlässige Verpackungslösungen, die Ihre Marke aufwerten und die Umwelt schonen.",
+  "heroSecondaryCallToAction": "Sprechen Sie mit uns",
+  "heroPrimaryCallToAction": "Karton anfragen",
+  "generateYield": "Generating yield",
+  "totalYieldGenerated": "Total Yield Generated",
+  "knownFrom": "Known from",
+  "section1Headline": "Section1 Headline",
+  "section2Headline": "Section2 Headline",
+  "section2BodyPart1": "Section2 Body 1",
+  "section2BodyPart2": "Section2 Body 2",
+  "section2BodyPart3": "Section2 Body 3",
+  "section2BodyPart4": "Section2 Body 4"
 }

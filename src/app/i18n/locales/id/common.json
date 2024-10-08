@@ -1,8 +1,5 @@
 {
-    "welcome": "Selamat datang di aplikasi kami!",
-    "generateYield": "Menghasilkan Yield...",
-    "totalYield": "Total Yield yang Dihasilkan",
-    "language": "Bahasa",
-    "title": "Ihr bester Lieferant für Kartonverpackungen.",
-    "to-second-page": "Zur zweiten Seite"
+  "generateYield": "Menghasilkan Yield...",
+  "totalYield": "Total Yield yang Dihasilkan",
+  "title": "Bahasa"
 }

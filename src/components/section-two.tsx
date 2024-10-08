@@ -1,13 +1,17 @@
 "use client";
 
+import { useTranslation } from "@/app/i18n/client";
 import { AdaptiveImage } from "@/components/adaptive-image";
+import useLanguage from "@/hooks/useLanguage";
 import { motion } from "framer-motion";
-import designer from "public/images/index/desinger.png";
+
 import DesignTeamImage from "public/images/index/Inhouse_Designteam.webp";
 import { useState } from "react";
 
 export function SectionTwo() {
   const [isActive, setActive] = useState(false);
+  const lng = useLanguage();
+  const { t } = useTranslation(lng, "common");
 
   return (
     <section
@@ -37,30 +41,13 @@ export function SectionTwo() {
         <div className="md:flex md:max-w-[50%] justify-center align-middle p-8">
           <div className="md:flex md:flex-col md:justify-center md:align-middle">
             <h3 className="font-medium text-xl md:text-2xl mb-4">
-              Inhouse Designteam
+              {t("section2Headline")}
             </h3>
 
-            <p className="text-[#878787] mb-4">
-              Unser Designteam entwirft hochwertige,
-              kosteneffiziente und kreative Verpackungen
-              nach Ihrem Wunsch.</p>
-            <p className="text-[#878787] mb-4">
-              Dabei optimieren wir die
-              Verpackungsgrößen, so dass sie kostengünstig
-              gelagert und versendet werden können.
-            </p>
-            <p className="text-[#878787] mb-4">
-              Wir produzieren nach höchsten
-              Qualitätsstandards mit einem modernen
-              Maschinenpark.
-
-            </p>
-            <p className="text-[#878787] mb-4">
-              Unsere digitalen Prozesse machen RevBoost
-              effizient. Diese Effizienz geben wir an unsere
-              Kunden weiter. Somit können wir jederzeit
-              sehr gute Preise anbieten
-            </p>
+            <p className="text-[#878787] mb-4">{t("section2BodyPart1")}</p>
+            <p className="text-[#878787] mb-4">{t("section2BodyPart2")}</p>
+            <p className="text-[#878787] mb-4">{t("section2BodyPart3")}</p>
+            <p className="text-[#878787] mb-4">{t("section2BodyPart4")}</p>
           </div>
         </div>
       </div>

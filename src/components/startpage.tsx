@@ -9,7 +9,6 @@ import { SectionFAQ } from "./section-faq";
 import { SectionSeven } from "@/components/section-seven";
 import { SectionSix } from "@/components/section-six";
 import { SectionTwo } from "@/components/section-two";
-import { Testimonials } from "@/components/testimonials";
 import { Partners } from "./partners";
 import { SectionNewsletter } from "./section-newsletter";
 
@@ -23,7 +22,6 @@ export function StartPage() {
   return (
     <>
       <Hero />
-
       <YieldGenerator />
       <Screens />
       <Partners />
