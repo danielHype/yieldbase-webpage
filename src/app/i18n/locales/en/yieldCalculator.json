@@ -1,0 +1,20 @@
+{
+    "yieldTitle": "Your Yield Calculator",
+    "yieldDescription": "Calculate your potential yield based on your deposit strategy and risk level.",
+    "currency": "Currency",
+    "dailyDeposit": "Daily Deposit",
+    "yourRevenues": "Your Revenues",
+    "withdrawalInterval": "Withdrawal Interval",
+    "every7Days": "Every 7 days",
+    "every14Days": "Every 14 days",
+    "every30Days": "Every 30 days",
+    "dailyDepositAmountIn": "Enter daily deposit amount in",
+    "riskStrategy": "Risk Strategy",
+    "estimatedYieldPerPeriod": "Estimated Yield per Period:",
+    "extraPolatedAnnualYield": "Extrapolated Annual Yield:",
+    "perYear": "per year",
+    "calculateYield": "Calculate Yield",
+    "dailyDepositInput": "Enter Daily Deposit to Calculate",
+    "per": "per",
+    "dayPeriod": "-day period"
+}

@@ -17,14 +17,17 @@ import YieldGenerator from "./yield-generator";
 import SectionThree from "./section-three";
 import FrequentlyAskedQuestions from "./faq";
 import Testimonial from "./testimonial";
+import EnhancedYieldCalculator from "./enhanced-yield-calculator";
 
 export function StartPage() {
   return (
     <>
       <Hero />
-      <YieldGenerator />
+      <EnhancedYieldCalculator />
+
       <Screens />
       <Partners />
+
       <SectionOne />
       <SectionTwo />
       <SectionThree />

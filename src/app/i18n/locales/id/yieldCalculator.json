@@ -1,0 +1,20 @@
+{
+    "yieldTitle": "Kalkulator Hasil Anda",
+    "yieldDescription": "Hitung potensi hasil Anda berdasarkan strategi setoran dan tingkat risiko.",
+    "currency": "Mata Uang",
+    "dailyDeposit": "Setoran Harian",
+    "yourRevenues": "Pendapatan Anda",
+    "withdrawalInterval": "Interval Penarikan",
+    "every7Days": "Setiap 7 hari",
+    "every14Days": "Setiap 14 hari",
+    "every30Days": "Setiap 30 hari",
+    "dailyDepositAmountIn": "Masukkan jumlah setoran harian dalam",
+    "riskStrategy": "Strategi Risiko",
+    "estimatedYieldPerPeriod": "Perkiraan Hasil per Periode:",
+    "extraPolatedAnnualYield": "Perkiraan Hasil Tahunan:",
+    "perYear": "per tahun",
+    "calculateYield": "Hitung Hasil",
+    "dailyDepositInput": "Masukkan Setoran Harian untuk Dihitung",
+    "per": "per",
+    "dayPeriod": "-periode hari"
+}
