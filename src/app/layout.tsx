@@ -15,18 +15,18 @@ import { baseUrl } from "./sitemap";
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "YieldBase | Kartonagen einfach gemacht",
+    default: "YieldBase | Smart Cashflow Solutions",
     template: "%s | YieldBase",
   },
   description:
     "Erleben Sie unübertroffenen Schutz und Präsentation für Ihre Produkte mit unseren umweltfreundlichen, maßgeschneiderten Kartons. Wählen Sie uns für zuverlässige Verpackungslösungen, die Ihre Marke aufwerten und die Umwelt schonen.",
   openGraph: {
-    title: "YieldBase | Kartonagen einfach gemacht",
+    title: "YieldBase | Smart Cashflow Solutions",
     description:
-      "Erleben Sie unübertroffenen Schutz und Präsentation für Ihre Produkte mit unseren umweltfreundlichen, maßgeschneiderten Kartons. Wählen Sie uns für zuverlässige Verpackungslösungen, die Ihre Marke aufwerten und die Umwelt schonen.",
+      "Unlock your business's cashflow potential with innovative yield solutions. Our automated financial strategies help Southeast Asian businesses, starting in Bali, Indonesia, turn daily cashflow into extra income effortlessly. Experience seamless liquidity management and maximize your returns with our smart, hassle-free services.",
     url: baseUrl,
     siteName:
-      "Erleben Sie unübertroffenen Schutz und Präsentation für Ihre Produkte mit unseren umweltfreundlichen, maßgeschneiderten Kartons. Wählen Sie uns für zuverlässige Verpackungslösungen, die Ihre Marke aufwerten und die Umwelt schonen.",
+      "Unlock your business's cashflow potential with innovative yield solutions. Our automated financial strategies help Southeast Asian businesses, starting in Bali, Indonesia, turn daily cashflow into extra income effortlessly. Experience seamless liquidity management and maximize your returns with our smart, hassle-free services.",
     locale: "de_DE",
     type: "website",
   },
@@ -61,7 +61,6 @@ function Layout({ children }: { children: ReactElement }) {
       >
         <Provider>
           <Header />
-
           <main className="container mx-auto px-4 overflow-hidden md:overflow-visible">
             {children}
           </main>

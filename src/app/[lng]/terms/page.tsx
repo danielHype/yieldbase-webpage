@@ -13,7 +13,7 @@ export default function Page() {
         </h1>
 
         <div className="text-component line-height-lg v-space-md">
-          <p className="leading-7 mt-8">Last updated: October 26, 2023</p>
+          <p className="leading-7 mt-8">Last updated: October 9, 2024</p>
 
           <p className="leading-7 mt-8">
             These Terms and Conditions ("Terms", "Terms and Conditions") govern
