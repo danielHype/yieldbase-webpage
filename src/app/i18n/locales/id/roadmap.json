@@ -1,0 +1,90 @@
+{
+    "productRoadmap": "Peta Jalan Produk",
+    "milestones": {
+        "Q4_2024": "Q4 2024",
+        "Q1_2025": "Q1 2025",
+        "Q2_2025": "Q2 2025",
+        "Q3_2025": "Q3 2025"
+    },
+    "items": {
+        "localBankOnramp": {
+            "title": "Onramp Bank Lokal ke Alamat On-chain",
+            "description": "Integrasikan sistem perbankan lokal untuk memungkinkan pengguna dengan mudah mengonversi fiat ke kripto dan mentransfer dana ke alamat on-chain mereka.",
+            "tasks": [
+                "Membangun kemitraan dengan bank lokal.",
+                "Mengembangkan integrasi API untuk konversi fiat-ke-kripto.",
+                "Memastikan kepatuhan dengan regulasi lokal (KYC/AML).",
+                "Mengujicobakan sistem onramp dengan kelompok beta tertutup."
+            ],
+            "timeline": "3 bulan (Oktober - Desember 2024)"
+        },
+        "dashboardDevelopment": {
+            "title": "Pengembangan Dashboard",
+            "description": "Membangun dashboard yang ramah pengguna di mana pengguna dapat memantau saldo, melakukan transaksi, dan melacak strategi farming.",
+            "tasks": [
+                "Mendesain UI/UX dari dashboard.",
+                "Mengembangkan infrastruktur backend untuk mendukung aliran data real-time.",
+                "Mengintegrasikan koneksi dompet (misalnya, MetaMask).",
+                "Memastikan kompatibilitas dengan perangkat mobile dan desktop.",
+                "Melakukan pengujian pengguna."
+            ],
+            "timeline": "4 bulan (Oktober - Januari 2025)"
+        },
+        "communityBuilding": {
+            "title": "Membangun Komunitas",
+            "description": "Membangun komunitas di sekitar produk dengan melibatkan pengguna awal, pengembang, dan penggemar.",
+            "tasks": [
+                "Meluncurkan kampanye media sosial dan membuat konten (blog, tutorial).",
+                "Membuat saluran Discord atau Telegram untuk keterlibatan real-time.",
+                "Menyelenggarakan AMA, webinar, dan acara online untuk edukasi dan membangun kepercayaan.",
+                "Mengembangkan mekanisme penghargaan untuk kontribusi komunitas (misalnya, umpan balik, laporan bug)."
+            ],
+            "timeline": "3 bulan (Desember 2024 - Februari 2025)"
+        },
+        "farmingStrategiesImplementation": {
+            "title": "Implementasi Strategi Farming",
+            "description": "Memperkenalkan strategi farming yang memungkinkan pengguna mendapatkan imbalan dengan staking atau menyediakan likuiditas.",
+            "tasks": [
+                "Meneliti dan mengembangkan berbagai strategi farming.",
+                "Memastikan kontrak dioptimalkan untuk keamanan dan efisiensi.",
+                "Menyediakan dokumentasi tentang risiko dan hasil yang diharapkan.",
+                "Mengintegrasikan opsi farming ke dalam dashboard.",
+                "Mendidik pengguna tentang cara berpartisipasi dalam farming melalui tutorial."
+            ],
+            "timeline": "3 bulan (Januari - Maret 2025)"
+        },
+        "auditFinancialProtocols": {
+            "title": "Audit Protokol Keuangan",
+            "description": "Melakukan audit menyeluruh terhadap protokol keuangan untuk memastikan keamanan dan stabilitas sistem.",
+            "tasks": [
+                "Menyewa firma audit pihak ketiga yang bereputasi.",
+                "Memastikan semua smart contract dan mekanisme keuangan diaudit.",
+                "Mengimplementasikan perbaikan atau optimasi yang diperlukan.",
+                "Membagikan laporan audit secara publik untuk transparansi."
+            ],
+            "timeline": "2 bulan (April - Mei 2025)"
+        },
+        "goLiveMVP": {
+            "title": "Peluncuran MVP kepada Pelanggan",
+            "description": "Meluncurkan MVP (Minimum Viable Product) kepada sekelompok pelanggan awal yang dipilih.",
+            "tasks": [
+                "Mendaftarkan pengguna awal dan mitra.",
+                "Memantau penggunaan, mengumpulkan umpan balik, dan melakukan perbaikan iteratif.",
+                "Menyiapkan sistem dukungan pelanggan untuk pengguna MVP.",
+                "Memastikan MVP stabil dan berfungsi di kondisi dunia nyata."
+            ],
+            "timeline": "2 bulan (Juni - Juli 2025)"
+        },
+        "goLivePublic": {
+            "title": "Peluncuran Publik",
+            "description": "Setelah menyempurnakan platform berdasarkan umpan balik dari pengguna MVP, meluncurkan produk secara publik.",
+            "tasks": [
+                "Meluncurkan kampanye pemasaran skala penuh di berbagai saluran.",
+                "Menyediakan tutorial terperinci, dukungan, dan onboarding untuk pengguna baru.",
+                "Memantau metrik pengguna dan menangani masalah pasca-peluncuran dengan cepat.",
+                "Memulai pengembangan fitur baru dan skalasi infrastruktur."
+            ],
+            "timeline": "2 bulan (Juli - Agustus 2025)"
+        }
+    }
+}

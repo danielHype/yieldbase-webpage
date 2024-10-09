@@ -1,0 +1,33 @@
+{
+    "process": {
+        "title": "PROCESS EXPLANATION",
+        "subtitle": "How Does It Work?",
+        "steps": [
+            {
+                "number": "01",
+                "title": "Daily Cashflow Deposits",
+                "description": "Each day, your business receives payments through your point-of-sale (POS) system..."
+            },
+            {
+                "number": "02",
+                "title": "Grow Your Earnings",
+                "description": "Once your funds are deposited, we use proven financial strategies..."
+            },
+            {
+                "number": "03",
+                "title": "Hedging for Stability",
+                "description": "To protect against fluctuations in local currency..."
+            },
+            {
+                "number": "04",
+                "title": "Weekly or Bi-Weekly Access",
+                "description": "When it’s time to restock or pay for goods or services..."
+            },
+            {
+                "number": "05",
+                "title": "Repeat & Optimize",
+                "description": "The cycle continues: as your business earns more each day..."
+            }
+        ]
+    }
+}

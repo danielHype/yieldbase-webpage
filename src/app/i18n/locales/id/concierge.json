@@ -1,0 +1,33 @@
+{
+    "bentoSection": {
+        "title": "PENYIAPAN CONCIERGE",
+        "subtitle": "Layanan Penyiapan & Dukungan Komprehensif di Lokasi",
+        "features": [
+            {
+                "eyebrow": "Registrasi Legal & Bisnis",
+                "title": "Kami menangani dokumen, izin, dan registrasi bisnis, memastikan semuanya berjalan lancar.",
+                "description": "Kami mengurus segalanya, sehingga Anda dapat fokus pada pengembangan bisnis."
+            },
+            {
+                "eyebrow": "Integrasi Sederhana dengan Perbankan",
+                "title": "Kami membantu Anda terhubung dengan institusi keuangan yang tepat, memudahkan transfer dana dan akses penghasilan Anda.",
+                "description": "Integrasi perbankan yang aman dan lancar untuk manajemen keuangan yang mulus."
+            },
+            {
+                "eyebrow": "Pelatihan & Onboarding Tim",
+                "title": "Kami menyediakan pelatihan untuk tim Anda agar memahami cara mengelola arus kas, mengakses penghasilan, dan memanfaatkan sepenuhnya proses penghasilan hasil.",
+                "description": "Tim Anda akan sepenuhnya siap untuk mengendalikan proses keuangan."
+            },
+            {
+                "eyebrow": "Analitik & Dasbor",
+                "title": "Dapatkan visibilitas penuh terhadap kinerja keuangan bisnis Anda.",
+                "description": "Alat dasbor dan analitik kami yang komprehensif membantu Anda memantau arus kas, melacak hasil, dan membuat keputusan yang tepat secara real-time."
+            },
+            {
+                "eyebrow": "Dukungan Lokal 24/7",
+                "title": "Pakar kami tersedia kapan saja untuk menjawab pertanyaan, menyelesaikan masalah, dan memberikan dukungan berkelanjutan untuk membantu kesuksesan bisnis Anda.",
+                "description": "Dukungan sepanjang waktu untuk memastikan bisnis Anda berjalan lancar."
+            }
+        ]
+    }
+}

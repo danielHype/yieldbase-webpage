@@ -1,0 +1,33 @@
+{
+    "bentoSection": {
+        "title": "CONCIERGE SETUP",
+        "subtitle": "Comprehensive Onsite Setup & Support",
+        "features": [
+            {
+                "eyebrow": "Legal & Business Registration",
+                "title": "We handle the paperwork, permits, and business registration, ensuring everything is in place for smooth operations.",
+                "description": "We take care of everything, so you can focus on growing your business."
+            },
+            {
+                "eyebrow": "Simple Integration with Banking",
+                "title": "We help you connect with the right financial institutions, making it easy to transfer funds and access your earnings.",
+                "description": "Secure and seamless banking integration for smooth financial management."
+            },
+            {
+                "eyebrow": "Team Training & Onboarding",
+                "title": "We provide training for your team to ensure they understand how to manage cashflow, access earnings, and take full advantage of the yield generation process.",
+                "description": "Your team will be fully prepared to take control of the financial processes."
+            },
+            {
+                "eyebrow": "Analytics & Dashboards",
+                "title": "Gain full visibility into your business’s financial performance.",
+                "description": "Our comprehensive dashboards and analytics tools help you monitor your cashflow, track yields, and make informed decisions in real-time."
+            },
+            {
+                "eyebrow": "24/7 Local Support",
+                "title": "Our experts are available anytime to answer questions, resolve issues, and provide ongoing support to help your business succeed.",
+                "description": "Round-the-clock support to ensure your business runs smoothly."
+            }
+        ]
+    }
+}

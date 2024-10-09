@@ -2,7 +2,7 @@
 
 import { Hero } from "@/components/hero";
 import { Screens } from "@/components/screens";
-import { SectionFive } from "@/components/section-five";
+import { Process, SectionFive } from "@/components/process";
 import { SectionFour } from "@/components/section-four";
 import { SectionOne } from "@/components/section-one";
 import { SectionFAQ } from "./section-faq";
@@ -14,11 +14,13 @@ import { SectionNewsletter } from "./section-newsletter";
 
 import { SectionNine } from "./section-nine";
 import YieldGenerator from "./yield-generator";
-import SectionThree from "./section-three";
+import SectionThree from "./bento-section-three";
 import FrequentlyAskedQuestions from "./faq";
 import Testimonial from "./testimonial";
 import EnhancedYieldCalculator from "./enhanced-yield-calculator";
-import BentoSectionFeatures from "./section-three";
+import BentoSectionFeatures from "./bento-section-three";
+import Roadmap from "./roadmap";
+import Concierge from "./concierge";
 
 export function StartPage() {
   return (
@@ -27,14 +29,15 @@ export function StartPage() {
       <EnhancedYieldCalculator />
 
       <BentoSectionFeatures />
-      <SectionFour />
+      {/* <SectionFour /> */}
       {/* Text fading in  */}
       <SectionSeven />
       {/* Text fading in  */}
-      <SectionFive />
-      <SectionSix />
-
-      <SectionNine />
+      <Process />
+      {/* <SectionSix /> */}
+      <Concierge />
+      <Roadmap />
+      {/* <SectionNine /> */}
       {/* <SectionFAQ />
       <Testimonial /> */}
       <FrequentlyAskedQuestions />

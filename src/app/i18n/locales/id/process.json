@@ -1,0 +1,33 @@
+{
+    "process": {
+        "title": "PENJELASAN PROSES",
+        "subtitle": "Bagaimana Cara Kerjanya?",
+        "steps": [
+            {
+                "number": "01",
+                "title": "Setoran Arus Kas Harian",
+                "description": "Setiap hari, bisnis Anda menerima pembayaran melalui sistem POS..."
+            },
+            {
+                "number": "02",
+                "title": "Tingkatkan Penghasilan Anda",
+                "description": "Setelah dana Anda disetorkan, kami menggunakan strategi keuangan terbukti..."
+            },
+            {
+                "number": "03",
+                "title": "Lindung Nilai untuk Stabilitas",
+                "description": "Untuk melindungi dari fluktuasi mata uang lokal..."
+            },
+            {
+                "number": "04",
+                "title": "Akses Mingguan atau Dua Mingguan",
+                "description": "Ketika saatnya mengisi ulang atau membayar barang atau jasa..."
+            },
+            {
+                "number": "05",
+                "title": "Ulangi & Optimalkan",
+                "description": "Siklus terus berlanjut: saat bisnis Anda menghasilkan lebih banyak setiap hari..."
+            }
+        ]
+    }
+}
