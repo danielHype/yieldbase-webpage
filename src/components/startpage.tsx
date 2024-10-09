@@ -18,6 +18,7 @@ import SectionThree from "./section-three";
 import FrequentlyAskedQuestions from "./faq";
 import Testimonial from "./testimonial";
 import EnhancedYieldCalculator from "./enhanced-yield-calculator";
+import BentoSectionFeatures from "./section-three";
 
 export function StartPage() {
   return (
@@ -25,12 +26,7 @@ export function StartPage() {
       <Hero />
       <EnhancedYieldCalculator />
 
-      <Screens />
-      <Partners />
-
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
+      <BentoSectionFeatures />
       <SectionFour />
       {/* Text fading in  */}
       <SectionSeven />

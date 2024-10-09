@@ -1,0 +1,43 @@
+{
+    "bentoSection": {
+        "title": "BENEFITS",
+        "subtitle": "Why Choose Our Smart Yield Solutions?",
+        "features": [
+            {
+                "eyebrow": "Profit",
+                "title": "Increase Your Margins",
+                "description": "Enjoy fewer instances of fraud and payment disputes thanks to our secure, cutting-edge technology. This helps protect your profits and improve your margins."
+            },
+            {
+                "eyebrow": "Less Risk",
+                "title": "Protect Against Currency Risks",
+                "description": "We diversify your business’s earnings by converting a portion of your funds into stable global currencies (50% US dollars and 50% Euros), reducing the impact of fluctuations in the Rupiah."
+            },
+            {
+                "eyebrow": "Cashflow Optimization",
+                "title": "Boost Returns on Idle Cash",
+                "description": "Make your business’s daily cashflow work harder for you. By putting your cash to work in carefully managed financial programs, you can earn a higher return while maintaining easy access to your funds."
+            },
+            {
+                "eyebrow": "Liquidity Management",
+                "title": "Simple Liquidity & Cashflow Management",
+                "description": "With real-time tracking and flexible access to your earnings, you can manage your cashflow with ease, making smarter financial decisions for your business."
+            },
+            {
+                "eyebrow": "Regional Expertise",
+                "title": "Tailored Support with Local Expertise",
+                "description": "We provide hands-on support for businesses in South East Asia, helping you tap into global financial strategies with local expertise and care."
+            },
+            {
+                "eyebrow": "Stable",
+                "title": "Stable Value",
+                "description": "Each IDRX is designed to maintain a 1:1 value with the Indonesian Rupiah, offering stability and predictability for your business finances."
+            },
+            {
+                "eyebrow": "Regulatory Assurance",
+                "title": "Fully Backed & Reliable",
+                "description": "All funds backing IDRX are held at regulated financial institutions, ensuring your money is safe and fully accessible."
+            }
+        ]
+    }
+}

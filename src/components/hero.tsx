@@ -11,12 +11,15 @@ export function Hero() {
   return (
     <section className="text-center mt-16 md:mt-18 items-center flex flex-col">
       {/* <AnnouncementPill /> */}
-      <h1 className="text-4xl md:text-6xl font-medium mt-6">
+      <h1 className="text-4xl md:text-6xl font-medium mt-6 max-w-[800px]">
         {t("heroTitle")}
       </h1>
 
-      <p className="mt-4 md:mt-6 text-[#707070] max-w-[600px]">
-        {t("heroDescription")}
+      <p className="mt-4 md:mt-6 text-[#707070] max-w-[800px]">
+        {t("heroDescription1")}
+      </p>
+      <p className="mt-4 md:mt-6 text-[#707070] max-w-[800px]">
+        {t("heroDescription2")}
       </p>
 
       <div className="mt-8">
