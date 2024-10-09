@@ -35,10 +35,10 @@ export function StartPage() {
       <SectionSix />
 
       <SectionNine />
-      <SectionFAQ />
-      <Testimonial />
+      {/* <SectionFAQ />
+      <Testimonial /> */}
       <FrequentlyAskedQuestions />
-      <SectionNewsletter />
+
     </>
   );
 }

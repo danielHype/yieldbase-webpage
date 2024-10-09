@@ -33,7 +33,7 @@ export function Hero() {
             </Button>
           </Link>
 
-          <a href="/anfrage">
+          <a href="/signup">
             <Button className="h-12 px-5">
               {" "}
               {t("heroPrimaryCallToAction")}

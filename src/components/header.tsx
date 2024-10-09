@@ -9,62 +9,9 @@ import { useState } from "react";
 import { LogoIcon } from "./logo-icon";
 import LanguagePicker from "./language-picker";
 
-type ListItemProps = {
-  title: string;
-  href: string;
-  external?: boolean;
-  icon: () => React.JSX.Element;
-  className?: string;
-};
+import { useTranslation } from "@/app/i18n/client"
+import useLanguage from "@/hooks/useLanguage"
 
-const ListItem = ({
-  className,
-  title,
-  icon: Icon,
-  external,
-  ...props
-}: ListItemProps) => {
-  return (
-    <li>
-      <NavigationMenuLink asChild>
-        <Link
-          target={external ? "_blank" : undefined}
-          className={cn(
-            "block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-secondary focus:bg-accent focus:text-accent-foreground",
-            className
-          )}
-          {...props}
-        >
-          <div className="flex items-center">
-            <div className="w-8">
-              <Icon />
-            </div>
-            <div className="text-sm font-medium leading-none">{title}</div>
-          </div>
-        </Link>
-      </NavigationMenuLink>
-    </li>
-  );
-};
-
-const links = [
-  {
-    title: "Features",
-    path: "#features",
-    name: "features",
-  },
-  {
-    title: "Prozess",
-    path: "#process",
-    name: "process",
-  },
-
-  {
-    title: "FAQ",
-    path: "#faq",
-    name: "faq",
-  },
-];
 
 const listVariant = {
   show: {
@@ -84,6 +31,28 @@ const itemVariant = {
 };
 
 export function Header() {
+  const lng = useLanguage()
+  const { t } = useTranslation(lng, "common")
+
+  const links = [
+    {
+      title: `${t("benefits")}`,
+      path: "#features",
+      name: "features",
+    },
+    {
+      title: `${t("process")}`,
+      path: "#process",
+      name: "process",
+    },
+
+    {
+      title: `${t("faq")}`,
+      path: "#faq",
+      name: "faq",
+    },
+  ];
+
   const pathname = usePathname();
   const [isOpen, setOpen] = useState(false);
 
@@ -146,12 +115,19 @@ export function Header() {
           </svg>
         </button>
 
-        <a
-          href="anfrage"
+        <Link
+          href="/meeting"
+          className="border hidden md:inline-flex h-8 items-center justify-center rounded-md text-sm font-medium transition-colors px-3 py-2 hover:bg-secondary mr-4"
+        >
+          {t("heroSecondaryCallToAction")}
+        </Link>
+
+        <Link
+          href="/signup"
           className="hidden md:inline-flex h-8 items-center justify-center rounded-md text-sm font-medium transition-colors px-3 py-2 bg-primary text-primary-foreground hover:bg-primary/90"
         >
-          Karton anfragen
-        </a>
+          {t("heroPrimaryCallToAction")}
+        </Link>
       </nav>
 
       {isOpen && (
@@ -162,7 +138,7 @@ export function Header() {
         >
           <div className="mt-4 flex justify-between p-3 relative">
             <button type="button" onClick={handleToggleMenu}>
-              <span className="sr-only">Midday Logo</span>
+              <span className="sr-only">RevBoost Logo</span>
               <LogoIcon />
             </button>
 
@@ -209,13 +185,21 @@ export function Header() {
                 );
               })}
               <LanguagePicker />
-
               <motion.li
                 className="mt-auto border-t-[1px] pt-8"
                 variants={itemVariant}
               >
-                <Link className="text-xl text-primary" href="/anfrage">
-                  Jetzt Karton anfragen
+                <Link className="text-xl text-primary" href="/signup">
+                  {t("heroSecondaryCallToAction")}
+                </Link>
+              </motion.li>
+
+              <motion.li
+                className="mt-auto pt-4"
+                variants={itemVariant}
+              >
+                <Link className="text-xl text-primary" href="/signup">
+                  {t("heroPrimaryCallToAction")}
                 </Link>
               </motion.li>
             </motion.ul>
