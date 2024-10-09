@@ -7,7 +7,7 @@ export default function FrequentlyAskedQuestions() {
     const { t } = useTranslation(lng, "faq")
 
     return (
-        <section id="faq" className="scroll-mt-8 py-32">
+        <section id="faq" className="scroll-mt-8 pt-32">
             <h4 className="text-center font-medium text-xl md:text-2xl font-white mb-4">{t('faqSection.title')}</h4>
             <h4 className="text-center font-medium text-2xl md:text-4xl mb-4">{t('faqSection.subtitle')}</h4>
             <div className="mx-auto mb-32 mt-16 max-w-xl space-y-12">

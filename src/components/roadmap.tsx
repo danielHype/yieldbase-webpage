@@ -34,8 +34,8 @@ export default function Roadmap() {
             <div className="space-y-12">
                 {milestones.map((milestone, index) => (
                     <div key={index} className="relative">
-                        <div className="sticky top-20 z-10 bg-background py-4">
-                            <h2 className="text-2xl font-semibold">{t(`milestones.${milestone.key}`)}</h2>
+                        <div className="sticky top-20 z-10 bg-background py-4 rounded-md mb-4">
+                            <h2 className="text-2xl font-semibold px-4">{t(`milestones.${milestone.key}`)}</h2>
                         </div>
                         <div className="space-y-6">
                             {milestone.items.map((itemKey, itemIndex) => {

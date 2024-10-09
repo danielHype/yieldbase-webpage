@@ -199,7 +199,7 @@ export function Header() {
                 className="mt-auto border-t-[1px] pt-8"
                 variants={itemVariant}
               >
-                <Link className="text-xl text-primary" href="/signup">
+                <Link className="text-xl text-primary" href="/meeting">
                   {t("heroSecondaryCallToAction")}
                 </Link>
               </motion.li>

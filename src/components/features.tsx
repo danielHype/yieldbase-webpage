@@ -3,12 +3,12 @@ import { BentoCard } from "./bento-card";
 import { useTranslation } from "@/app/i18n/client";
 
 
-export default function BentoSectionFeatures() {
+export default function Features() {
     const lng = useLanguage()
     const { t } = useTranslation(lng, "benefits"); // Initialize translation
 
     return (
-        <div className="mx-2 mt-2 rounded-4xl py-32" id="features">
+        <div className="mx-2 mt-2 rounded-4xl py-8 md:py-32" id="features">
             <h4 className="font-medium text-xl md:text-2xl font-white mb-4">{t('bentoSection.title')}</h4>
             <h4 className="font-medium text-2xl md:text-4xl mb-4">{t('bentoSection.subtitle')}</h4>
 

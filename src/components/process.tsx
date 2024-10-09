@@ -18,7 +18,7 @@ export function Process() {
   };
 
   return (
-    <div className="mx-2 mt-2 rounded-4xl pt-32" id="process">
+    <div className="mx-2 mt-2 rounded-4xl pt-8 md:pt-32" id="process">
       <h4 className="font-medium text-xl md:text-2xl font-white mb-4">{t('process.title')}</h4>
       <h4 className="font-medium text-2xl md:text-4xl mb-4">{t('process.subtitle')}</h4>
 

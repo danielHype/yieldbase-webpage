@@ -11,7 +11,7 @@ export function FooterCTA() {
   const { t } = useTranslation(lng, "common")
 
   return (
-    <div className="border border-border rounded-2xl md:container text-center px-10 py-14 mx-4 md:mx-auto md:px-24 md:py-20 mb-32 mt-24 flex items-center flex-col bg-[#121212]">
+    <div className="border border-border rounded-2xl md:container text-center px-10 py-14 mx-4 md:mx-auto md:px-24 mb-32 flex items-center flex-col bg-[#121212]">
       <span className="text-2xl	md:text-4xl font-medium text-white">
         {t("contactUsTitle")}
       </span>
@@ -24,7 +24,7 @@ export function FooterCTA() {
           <Link href="/meeting">
             <Button
               variant="outline"
-              className="border border-primary h-12 px-6 border-white text-white hidden md:block"
+              className="border border-primary h-12 px-6 border-white text-white"
             >
               {t("heroSecondaryCallToAction")}
             </Button>
