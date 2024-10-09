@@ -7,7 +7,7 @@ export default function Concierge() {
     const { t } = useTranslation(lng, "concierge"); // Initialize translation
 
     return (
-        <div className="mx-2 mt-2 rounded-4xl py-32">
+        <div className="mx-2 mt-2 rounded-4xl py-32" id="concierge">
             <h4 className="font-medium text-xl md:text-2xl font-white mb-4">{t('bentoSection.title')}</h4>
             <h4 className="font-medium text-2xl md:text-4xl mb-4">{t('bentoSection.subtitle')}</h4>
 

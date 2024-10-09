@@ -47,6 +47,16 @@ export function Header() {
     },
 
     {
+      title: `${t("concierge")}`,
+      path: "#concierge",
+      name: "concierge",
+    },
+    {
+      title: `${t("roadmap")}`,
+      path: "#roadmap",
+      name: "roadmap",
+    },
+    {
       title: `${t("faq")}`,
       path: "#faq",
       name: "faq",

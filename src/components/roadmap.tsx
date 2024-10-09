@@ -29,7 +29,7 @@ export default function Roadmap() {
     const { t } = useTranslation(lng, "roadmap");
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-4" id="roadmap">
             <h1 className="text-3xl font-bold mb-8 text-center">{t('productRoadmap')}</h1>
             <div className="space-y-12">
                 {milestones.map((milestone, index) => (
