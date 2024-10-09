@@ -67,7 +67,7 @@ export const Step3Email = ({
 
                         <br />
 
-                        <span className="font-medium">Hi RevBoost,</span>
+                        <span className="font-medium">Hi YieldBase,</span>
                         <Text className="text-[#121212]">
                             We've got a new submission of Step 3.
                             <br />
@@ -98,7 +98,7 @@ export const Step3Email = ({
                             <br />
                         </Text>
                         <br />
-                        <Text className="text-[#707070]">Best regards, RevBoost</Text>
+                        <Text className="text-[#707070]">Best regards, YieldBase</Text>
                         <br />
                         <br />
                         {/* <GetStarted /> */}

@@ -6,7 +6,7 @@ import { useState } from "react";
 
 export function PostCopyURL({ slug }) {
   const [isCopied, setCopied] = useState(false);
-  const url = `https://revboost-webapp-avyu.vercel.app${slug}`;
+  const url = `https://yieldbase-webapp-avyu.vercel.app${slug}`;
 
   const handleClipboard = async () => {
     try {

@@ -15,13 +15,13 @@ import { baseUrl } from "./sitemap";
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: "RevBoost | Kartonagen einfach gemacht",
-    template: "%s | RevBoost",
+    default: "YieldBase | Kartonagen einfach gemacht",
+    template: "%s | YieldBase",
   },
   description:
     "Erleben Sie unübertroffenen Schutz und Präsentation für Ihre Produkte mit unseren umweltfreundlichen, maßgeschneiderten Kartons. Wählen Sie uns für zuverlässige Verpackungslösungen, die Ihre Marke aufwerten und die Umwelt schonen.",
   openGraph: {
-    title: "RevBoost | Kartonagen einfach gemacht",
+    title: "YieldBase | Kartonagen einfach gemacht",
     description:
       "Erleben Sie unübertroffenen Schutz und Präsentation für Ihre Produkte mit unseren umweltfreundlichen, maßgeschneiderten Kartons. Wählen Sie uns für zuverlässige Verpackungslösungen, die Ihre Marke aufwerten und die Umwelt schonen.",
     url: baseUrl,

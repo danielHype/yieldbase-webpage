@@ -16,7 +16,7 @@ export const subscribeEmail = action(
         const welcome = await resend.emails.send({
             to: "daniel@wintermeyer-ventures.com",
             subject: "New Newsletter Submission",
-            from: "Webapp RevBoost <app@app.hey-mpu.de>",
+            from: "Webapp YieldBase <app@app.hey-mpu.de>",
             html: await renderAsync(
                 SubscriptionEmail({
                     email: data.email,

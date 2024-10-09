@@ -18,7 +18,7 @@ export const sendStep2 = action(
         const welcome = await resend.emails.send({
             to: "daniel@wintermeyer-ventures.com",
             subject: "New Step 2 Form Submission",
-            from: "Webapp RevBoost <app@app.hey-mpu.de>",
+            from: "Webapp YieldBase <app@app.hey-mpu.de>",
             html: await renderAsync(
                 Step2Email({
                     length_in_mm: data.length_in_mm ?? "",

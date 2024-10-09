@@ -7,7 +7,7 @@ export function GetStarted() {
       <Button
         className="bg-transparent rounded-md text-primary text-[14px] text-[#121212] font-medium no-underline text-center px-6 py-3 border border-solid border-[#121212]"
 
-        href="https://revboost-webapp-avyu.vercel.app"
+        href="https://yieldbase-webapp-avyu.vercel.app"
       >
         Get started
       </Button>

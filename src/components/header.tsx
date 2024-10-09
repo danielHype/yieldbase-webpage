@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/utils/cn";
-import { NavigationMenu, NavigationMenuLink } from "./ui/navigation-menu";
+import { NavigationMenu } from "./ui/navigation-menu";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -80,7 +80,7 @@ export function Header() {
       <nav className="border border-border p-3 rounded-2xl flex items-center backdrop-filter backdrop-blur-xl bg-[#FDFDFC] dark:bg-[#121212] bg-opacity-70">
         <NavigationMenu>
           <Link href="/" className="mr-8">
-            <span className="sr-only">RevBoost Logo</span>
+            <span className="sr-only">YieldBase Logo</span>
             <LogoIcon />
           </Link>
 
@@ -148,7 +148,7 @@ export function Header() {
         >
           <div className="mt-4 flex justify-between p-3 relative">
             <button type="button" onClick={handleToggleMenu}>
-              <span className="sr-only">RevBoost Logo</span>
+              <span className="sr-only">YieldBase Logo</span>
               <LogoIcon />
             </button>
 

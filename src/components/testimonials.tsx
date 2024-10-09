@@ -48,7 +48,7 @@ export function Testimonials() {
           Kundenzufriedenheit ist unser Treiber
         </h3>
         <p className="text-center font-medium text-xl mb-2">„Sehr gute Beratung und überzeugende Preise.
-          Wir arbeiten gerne mit RevBoost zusammen.“</p>
+          Wir arbeiten gerne mit YieldBase zusammen.“</p>
         <p className="text-center font-medium text-l mb-2 text-[#878787]" >Jens Sperrmann, Leiter Logistik Myposter.de</p>
       </div>
       <h3 className="font-medium text-xl mt-16 text-center">Ein Auszug unserer erfolgreichen Kunden</h3>

@@ -5,7 +5,7 @@ import React, { useEffect } from 'react';
 
 const RedirectPage = () => {
     useEffect(() => {
-        window.location.href = 'https://app.revboost.com';
+        window.location.href = 'https://app.yieldbase.com';
     }, []);
 
     return (

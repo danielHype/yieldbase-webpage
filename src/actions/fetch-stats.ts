@@ -1,6 +1,6 @@
 "use server";
 
-// import { createClient } from "@midday/supabase/server";
+// import { createClient } from "@yieldbase/supabase/server";
 import { unstable_cache } from "next/cache";
 
 export async function fetchStats() {

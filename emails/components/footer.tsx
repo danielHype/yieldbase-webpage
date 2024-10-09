@@ -41,7 +41,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://go.midday.ai/fhEy5CL"
+                href="https://go.yieldbase.ai/fhEy5CL"
               >
                 Homepage
               </Link>
@@ -49,7 +49,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://go.midday.ai/KKEB90F"
+                href="https://go.yieldbase.ai/KKEB90F"
               >
                 Pricing
               </Link>
@@ -57,7 +57,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://go.midday.ai/Wa3TxOy"
+                href="https://go.yieldbase.ai/Wa3TxOy"
               >
                 Story
               </Link>
@@ -65,7 +65,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://go.midday.ai/jr5dX4W"
+                href="https://go.yieldbase.ai/jr5dX4W"
               >
                 Updates
               </Link>
@@ -73,7 +73,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://go.midday.ai/sXJM9Qv"
+                href="https://go.yieldbase.ai/sXJM9Qv"
               >
                 Download
               </Link>
@@ -82,7 +82,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://midday.ai/feature-request"
+                href="https://yieldbase.ai/feature-request"
               >
                 Feature Request
               </Link>
@@ -98,7 +98,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://go.midday.ai/aTNyqQH"
+                href="https://go.yieldbase.ai/aTNyqQH"
               >
                 Roadmap
               </Link>
@@ -106,7 +106,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://git.new/midday"
+                href="https://git.new/yieldbase"
               >
                 Github
               </Link>
@@ -114,7 +114,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://go.midday.ai/J2j4CM2"
+                href="https://go.yieldbase.ai/J2j4CM2"
               >
                 Support
               </Link>
@@ -122,7 +122,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://go.midday.ai/rofdWKi"
+                href="https://go.yieldbase.ai/rofdWKi"
               >
                 Terms of service
               </Link>
@@ -130,7 +130,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://go.midday.ai/TJIL5mQ"
+                href="https://go.yieldbase.ai/TJIL5mQ"
               >
                 Privacy policy
               </Link>
@@ -138,7 +138,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://app.midday.ai/account/support"
+                href="https://app.yieldbase.ai/account/support"
               >
                 Support
               </Link>
@@ -154,7 +154,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://go.midday.ai/cduCp4l"
+                href="https://go.yieldbase.ai/cduCp4l"
               >
                 SaaS hosting
               </Link>
@@ -162,7 +162,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://go.midday.ai/yrQlSIz"
+                href="https://go.yieldbase.ai/yrQlSIz"
               >
                 Self hosted
               </Link>
@@ -170,7 +170,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://go.midday.ai/Dd7M8cl"
+                href="https://go.yieldbase.ai/Dd7M8cl"
               >
                 Open startup
               </Link>
@@ -178,7 +178,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
             <Row className="mb-1.5">
               <Link
                 className="text-[#707070] text-[14px]"
-                href="https://go.midday.ai/M2Hv420"
+                href="https://go.yieldbase.ai/M2Hv420"
               >
                 OSS Friends
               </Link>
@@ -193,44 +193,44 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
 
       <Row>
         <Column className="align-middle w-[40px]">
-          <Link href="https://go.midday.ai/lS72Toq">
+          <Link href="https://go.yieldbase.ai/lS72Toq">
             <Img
               src={`${baseUrl}/x.png`}
               width="22"
               height="22"
-              alt="Midday on X"
+              alt="YieldBase on X"
             />
           </Link>
         </Column>
         <Column className="align-middle w-[40px]">
-          <Link href="https://go.midday.ai/7rhA3rz">
+          <Link href="https://go.yieldbase.ai/7rhA3rz">
             <Img
               src={`${baseUrl}/producthunt.png`}
               width="22"
               height="22"
-              alt="Midday on Producthunt"
+              alt="YieldBase on Producthunt"
             />
           </Link>
         </Column>
 
         <Column className="align-middle w-[40px]">
-          <Link href="https://go.midday.ai/anPiuRx">
+          <Link href="https://go.yieldbase.ai/anPiuRx">
             <Img
               src={`${baseUrl}/discord.png`}
               width="22"
               height="22"
-              alt="Midday on Discord"
+              alt="YieldBase on Discord"
             />
           </Link>
         </Column>
 
         <Column className="align-middle">
-          <Link href="https://go.midday.ai/Ct3xybK">
+          <Link href="https://go.yieldbase.ai/Ct3xybK">
             <Img
               src={`${baseUrl}/linkedin.png`}
               width="22"
               height="22"
-              alt="Midday on LinkedIn"
+              alt="YieldBase on LinkedIn"
             />
           </Link>
         </Column>
@@ -241,7 +241,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
 
       <Row>
         <Text className="text-[#B8B8B8] text-xs">
-          Midday Labs AB - Torsgatan 59 113 37, Stockholm, Sweden.
+          YieldBase Labs AB - Torsgatan 59 113 37, Stockholm, Sweden.
         </Text>
       </Row>
 
@@ -261,7 +261,7 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
         <Row>
           <Link
             className="text-[#707070] text-[14px]"
-            href="https://app.midday.ai/settings/notifications"
+            href="https://app.yieldbase.ai/settings/notifications"
             title="Unsubscribe"
           >
             Notification preferences
@@ -273,11 +273,11 @@ export function Footer({ baseUrl, unsubscribeLink }: Props) {
       <br />
 
       <Row>
-        <Link href="https://go.midday.ai/FZwOHud">
+        <Link href="https://go.yieldbase.ai/FZwOHud">
           <Img
             src={`${baseUrl}/logo-footer.png`}
             width="100"
-            alt="Midday"
+            alt="YieldBase"
             className="block"
           />
         </Link>

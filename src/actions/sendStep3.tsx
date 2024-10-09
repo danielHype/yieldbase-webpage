@@ -16,7 +16,7 @@ export const sendStep3 = action(
         const welcome = await resend.emails.send({
             to: "daniel@wintermeyer-ventures.com",
             subject: "New Step 3 Form Submission",
-            from: "Webapp RevBoost <app@app.hey-mpu.de>",
+            from: "Webapp YieldBase <app@app.hey-mpu.de>",
             html: await renderAsync(
                 Step3Email({
                     companyName: data.companyName ?? "",

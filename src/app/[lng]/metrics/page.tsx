@@ -129,7 +129,7 @@ export default async function Page() {
             </TableBody>
           </Table>
           <p className="text-xs text-center mt-4 text-[#878787]">
-            Midday Labs AB
+            YieldBase Labs AB
           </p>
         </TabsContent>
       </Tabs>

@@ -8,7 +8,7 @@ export function Logo({ baseUrl }) {
         src={`${baseUrl}/logo.png`}
         width="45"
         height="45"
-        alt="Midday"
+        alt="YieldBase"
         className="my-0 mx-auto block"
       />
     </Section>
