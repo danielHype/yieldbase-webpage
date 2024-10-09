@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     url: baseUrl,
     siteName:
       "Unlock your business's cashflow potential with innovative yield solutions. Our automated financial strategies help Southeast Asian businesses, starting in Bali, Indonesia, turn daily cashflow into extra income effortlessly. Experience seamless liquidity management and maximize your returns with our smart, hassle-free services.",
-    locale: "de_DE",
+    locale: "id_ID",
     type: "website",
   },
   robots: {
