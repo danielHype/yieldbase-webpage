@@ -1,7 +1,6 @@
 "use client";
 
 import { useTranslation } from "@/app/i18n/client";
-import { LogoLarge } from "@/components/logo-large";
 import useLanguage from "@/hooks/useLanguage";
 import Link from "next/link";
 import { LogoIcon } from "./logo-icon";

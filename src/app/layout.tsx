@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | YieldBase",
   },
   description:
-    "Erleben Sie unübertroffenen Schutz und Präsentation für Ihre Produkte mit unseren umweltfreundlichen, maßgeschneiderten Kartons. Wählen Sie uns für zuverlässige Verpackungslösungen, die Ihre Marke aufwerten und die Umwelt schonen.",
+    "Unlock your business's cashflow potential with innovative yield solutions. Our automated financial strategies help Southeast Asian businesses, starting in Bali, Indonesia, turn daily cashflow into extra income effortlessly. Experience seamless liquidity management and maximize your returns with our smart, hassle-free services.",
   openGraph: {
     title: "YieldBase | Smart Cashflow Solutions",
     description:
