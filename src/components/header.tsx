@@ -106,6 +106,14 @@ export function Header() {
             })}
           </ul>
         </NavigationMenu>
+        <div className="md:hidden mr-4">
+          <Link
+            href="/signup"
+            className="inline-flex h-8 items-center justify-center rounded-md text-sm font-medium transition-colors px-3 py-2 bg-primary text-primary-foreground hover:bg-primary/90"
+          >
+            {t("heroPrimaryCallToAction")}
+          </Link>
+        </div>
 
         <button
           type="button"
@@ -125,19 +133,25 @@ export function Header() {
           </svg>
         </button>
 
+
+
         <Link
           href="/meeting"
           className="border hidden md:inline-flex h-8 items-center justify-center rounded-md text-sm font-medium transition-colors px-3 py-2 hover:bg-secondary mr-4"
         >
           {t("heroSecondaryCallToAction")}
         </Link>
+        <div className="hidden md:flex justify-start">
+          <Link
+            href="/signup"
+            className="inline-flex h-8 items-center justify-center rounded-md text-sm font-medium transition-colors px-3 py-2 bg-primary text-primary-foreground hover:bg-primary/90"
+          >
+            {t("heroPrimaryCallToAction")}
+          </Link>
+        </div>
 
-        <Link
-          href="/signup"
-          className="hidden md:inline-flex h-8 items-center justify-center rounded-md text-sm font-medium transition-colors px-3 py-2 bg-primary text-primary-foreground hover:bg-primary/90"
-        >
-          {t("heroPrimaryCallToAction")}
-        </Link>
+
+
       </nav>
 
       {isOpen && (
