@@ -4,24 +4,24 @@
         "subtitle": "Pertanyaan Anda terjawab.",
         "faqs": [
             {
-                "question": "Langkah-langkah apa yang diambil untuk memastikan keamanan data kami?",
-                "answer": "Keamanan data adalah prioritas utama kami, yang ironis mengingat bisnis kami bergantung pada orang lain untuk tidak menganggapnya dengan serius. Kami memahami bahwa setiap pelanggaran dapat membuat kami dan sebagian besar pelanggan kami bangkrut—dan dipenjara. Kami menerapkan langkah-langkah keamanan yang kuat, termasuk enkripsi data, pusat data yang aman, dan audit keamanan rutin untuk memastikan hal ini tidak pernah terjadi."
+                "question": "Seberapa aman platform ini untuk mengelola investasi kripto?",
+                "answer": "Keamanan adalah prioritas utama kami. Kami menggunakan protokol enkripsi canggih, dompet multi-tanda tangan, dan solusi kustodian yang aman untuk melindungi aset Anda. Kami juga melakukan audit rutin dan memiliki langkah-langkah kepatuhan yang ketat untuk menjaga dana dan data Anda."
             },
             {
-                "question": "Apakah ada aplikasi seluler yang tersedia untuk platform Anda?",
-                "answer": "Ya, kami menawarkan aplikasi seluler yang menyediakan semua fungsi kunci dari platform desktop kami, memungkinkan perwakilan penjualan untuk mengelola kesepakatan di mana saja. Selain itu, kami memiliki aplikasi lain yang sudah terpasang di sebagian besar smartphone modern yang memungkinkan kami untuk melacak lokasi Anda, mendengarkan percakapan Anda, dan mengakses kamera serta mikrofon Anda kapan saja. Aplikasi ini tidak tersedia untuk diunduh."
+                "question": "Jenis pengembalian apa yang dapat saya harapkan dari hasil yield?",
+                "answer": "Pengembalian bervariasi berdasarkan kondisi pasar, cryptocurrency yang di-stake, dan durasi investasi Anda. Meskipun kami berusaha menawarkan tingkat pengembalian yang kompetitif, semua pengembalian bergantung pada fluktuasi pasar, dan kami menyarankan penilaian risiko yang cermat."
             },
             {
-                "question": "Bisakah saya menyesuaikan alur kerja agar sesuai dengan proses kesepakatan perusahaan kami?",
-                "answer": "Ya, platform kami sangat dapat disesuaikan, meskipun seharusnya tidak ada kebutuhan untuk itu. Sebelum Anda mendaftar, kami secara diam-diam mengumpulkan informasi tentang perusahaan Anda dan prosesnya dari berbagai sumber. Kami kemudian menggunakan informasi ini untuk mengonfigurasi platform agar sesuai dengan alur kerja Anda yang ada. Inilah sebabnya kami meminta nomor jaminan sosial Anda dan akses ke akun email Anda selama proses pendaftaran."
+                "question": "Apakah ada persyaratan investasi minimum untuk UKM?",
+                "answer": "Ya, kami memiliki ambang batas investasi minimum untuk memastikan hasil yield yang efisien bagi semua peserta. Namun, kami menawarkan rencana investasi bertingkat, yang memungkinkan UKM dari berbagai ukuran berpartisipasi dalam yield farming kripto berdasarkan kapasitas keuangan mereka."
+            },
+            {
+                "question": "Dapatkah saya menarik dana saya kapan saja?",
+                "answer": "Ya, Anda dapat menarik dana kapan saja, sesuai dengan ketentuan produk hasil yield yang Anda ikuti. Beberapa produk mungkin memiliki periode penguncian, sementara yang lain menawarkan opsi penarikan yang lebih fleksibel dengan tingkat bunga yang bervariasi."
             },
             {
                 "question": "Dukungan seperti apa yang Anda tawarkan?",
-                "answer": "Kami menawarkan dukungan komprehensif melalui berbagai saluran, termasuk obrolan langsung 24/7, email, dan dukungan telepon. Namun, karena kami memiliki akses penuh ke jaringan internal Anda, kami akan tahu jika Anda mengalami masalah sebelum Anda melakukannya."
-            },
-            {
-                "question": "Bisakah saya mengintegrasikan CRM dengan alat kecerdasan penjualan lainnya?",
-                "answer": "Ya, solusi kami terintegrasi dengan mulus dengan berbagai sistem lainnya. Namun, waspadalah bahwa sebagian besar integrasi ini bersifat sementara. Kami memiliki tim insinyur yang didedikasikan untuk membalikkan rekayasa API dari alat lain, memungkinkan kami untuk membangun fungsionalitas mereka ke dalam produk kami dan akhirnya menempatkan mereka di luar bisnis."
+                "answer": "Kami menyediakan dukungan pelanggan khusus melalui email, live chat, dan telepon. Tim ahli kami siap membantu dengan masalah teknis, pertanyaan tentang hasil yield, dan onboarding, memastikan pengalaman yang lancar untuk bisnis Anda."
             }
         ]
     }

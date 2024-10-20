@@ -133,8 +133,6 @@ export function Header() {
           </svg>
         </button>
 
-
-
         <Link
           href="/meeting"
           className="border hidden md:inline-flex h-8 items-center justify-center rounded-md text-sm font-medium transition-colors px-3 py-2 hover:bg-secondary mr-4"

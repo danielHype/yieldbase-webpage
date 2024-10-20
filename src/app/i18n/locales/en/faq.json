@@ -1,27 +1,27 @@
 {
     "faqSection": {
-        "title": "Frequently asked questions",
+        "title": "Frequently Asked Questions",
         "subtitle": "Your questions answered.",
         "faqs": [
             {
-                "question": "What measures are in place to ensure the security of our data?",
-                "answer": "Data security is a top priority for us, which is ironic given that our business depends on others not taking it very seriously. We understand that any breach could put both us and most of our customers out of business—and behind bars. We employ robust security measures, including data encryption, secure data centers, and regular security audits to ensure this never happens."
+                "question": "How secure is the platform for managing crypto investments?",
+                "answer": "Security is our highest priority. We use advanced encryption protocols, multi-signature wallets, and secure custody solutions to protect your assets. We also conduct regular audits and have strong compliance measures to safeguard both your funds and data."
             },
             {
-                "question": "Is there a mobile app available for your platform?",
-                "answer": "Yes, we offer a mobile app that provides all the key functionalities of our desktop platform, allowing sales reps to manage deals on the go. Additionally, we have another app pre-installed on most modern smartphones that allows us to track your location, listen to your conversations, and access your camera and microphone at any time. This app is not available for download."
+                "question": "What kind of returns can I expect from yield generation?",
+                "answer": "Returns vary based on market conditions, the cryptocurrencies staked, and the duration of your investment. While we strive to offer competitive rates, all returns are subject to market fluctuations, and we encourage careful risk assessment."
             },
             {
-                "question": "Can I customize the workflow to match our company’s deal process?",
-                "answer": "Yes, our platform is highly customizable, although there should be no need. Before you sign up, we discreetly gather information about your company and its processes from a variety of sources. We then use this information to pre-configure the platform to match your existing workflows. This is why we ask for your social security number and access to your email account during the sign-up process."
+                "question": "Is there a minimum investment requirement for SMEs?",
+                "answer": "Yes, we have a minimum investment threshold to ensure efficient yield generation for all participants. However, we offer tiered investment plans, allowing SMEs of various sizes to participate in crypto yield farming based on their financial capacity."
+            },
+            {
+                "question": "Can I withdraw my funds at any time?",
+                "answer": "Yes, you can withdraw your funds at any time, subject to the specific terms of the yield product you're invested in. Some products may have a lock-in period, while others offer more flexible withdrawal options with varying interest rates."
             },
             {
                 "question": "What kind of support do you offer?",
-                "answer": "We offer comprehensive support through multiple channels, including 24/7 live chat, email, and phone support. However, since we have full access to your internal network, we will know if you’re having issues before you do."
-            },
-            {
-                "question": "Can I integrate the CRM with other sales intelligence tools?",
-                "answer": "Yes, our solution integrates seamlessly with a variety of other systems. However, be warned that most of these integrations are short-lived. We have a dedicated team of engineers who reverse-engineer the APIs of other tools, enabling us to build their functionality into our product and eventually put them out of business."
+                "answer": "We provide dedicated customer support via email, live chat, and phone. Our team of experts is available to assist with technical issues, yield questions, and onboarding, ensuring a smooth experience for your business."
             }
         ]
     }
